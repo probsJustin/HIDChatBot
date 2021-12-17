@@ -1,28 +1,29 @@
-[{
+{
     "socialism/union" : [{
         "housing": [
             "Why do we pay 65% of our wages to housing?",
             "Private investment in the housing market has destroyed the working classes ability to purchase a home.",
-            "The working class is already in a worse position that I was back in my team, our company towns at least provided housing.",
+            "The working class is already in a worse position than I was back in my team, our company towns at least provided housing.",
             ""
             ]
         },{
         "working conditions": [
             "If you want a consistent schedule, talk to your coworkers about unionizing today!",
+            ""
             ]
         },{
             "corporations":[
                 "Why do we let corporations control every aspect of our life?",
                 "why can management dictate, when we work, how we work, the life our kids have, and the conditions that we grow up in.",
                 "Why do we let the ruling class reap the resources of our community while contributing nothing in return?",
-                "Why do we let the ruling class profit off the backs of the working class and give while destroying our communities",
+                "Why do we let the ruling class profit off the backs of the working class while destroying our communities",
                 "We need to demand that the companies and corporations that profit from our resources, replenish the community from which it profited from.",
                 ""
             ]
         },{
             "pro-union":[
                 "We need to demand that the companies and corporations that profit from our resources, replenish the community from which it profited from.",
-                "With out consistent consumer spending and disposable income, capitalism it self will collapse.", 
+                "Without consistent consumer spending and disposable income, capitalism itself will collapse.",
                 "We need collective bargaining, we need to be able to leverage our collective bargaining rights to negotiate with our employers.",
                 "With out a union, we do not have the leverage to negotiate a fair days pay for a fair days work and must accept what ever is given to us.",
                 "If you want to change the conditions of your work place, ask your co workers about joining a union today!",
@@ -79,21 +80,6 @@
                 "list",
                 "list1"
             ]
-        }   
-    ]
-},{
-    "subject example" : [{
-        "content subject example": [
-            "Why do we pay 65% of our wages to housing?",
-            "Private investment in the housing market has destroyed the working classes ability to purchase a home.",
-            "The working class is already in a worse position that I was back in my team, our company towns at least provided housing.",
-            ""
-            ]
-        },{
-            "Another content subject example" : [
-                "things, things and things",
-                "more things! so cool!"
-            ]
         }
     ]
-}]
+}
