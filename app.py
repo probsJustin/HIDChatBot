@@ -1,7 +1,21 @@
 
 
 import json
+import serial
 
+'''
+Example Arduino Script for reading: (this is likely going to change a lot since we will need to mimic HID witha  different board)
+void setup ()
+{
+    // ..... // 
+    Serial.begin (115200);
+    Serial.print ("Ready...\n");
+}'''
+
+
+def createSerialConnection(location, baudRate):
+    ser = serial.Serial(location, baudRate)
+    print(ser.readline())
 
 with open('./content.json') as f:
   content = json.load(f)
@@ -22,3 +36,7 @@ def getInput():
 
 displayList()
 getInput()
+
+# display list of content
+# get input <number>,<number> or <string-subject>, <number>
+# get input option random which will pick a item at random to send
