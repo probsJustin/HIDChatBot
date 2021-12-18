@@ -19,7 +19,7 @@ def createSerialConnection(location, baudRate):
     ser = serial.Serial(location, baudRate)
     print(ser.readline())
 
-with open('./content.json') as f:
+with open('content.json') as f:
   content = OrderedDict(json.load(f))
 
 def displayList():
