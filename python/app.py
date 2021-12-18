@@ -54,7 +54,11 @@ def getRandSelectedItems(input_list_of_numbers, input_list_of_items):
     return second[random.randint(0, len(second) - 1)]
 
 def printHelp():
-    print("To select a thing to type do something like 0.0.0 where each number is an index to select")
+    print("To select a thing to type do something like 0.0.0 where each number is an index to select \n")
+    print("\tHelp Menu:")
+    print(f'\tchar \t|\t full command \n')
+    print(f'\td \t\t|\t display \t\t will display the full output of the content json')
+    print(f'\th \t\t|\t help \t\t\t will display this menu')
 displayList()
 
 while (True):
