@@ -3,6 +3,7 @@
 import json
 #import serial
 from collections import OrderedDict
+import random
 
 
 '''
@@ -47,10 +48,33 @@ def getSelectedItems(input_list_of_numbers, input_list_of_items):
     second = selectItem(first[input_list_of_numbers[1]], 0)
     return second[input_list_of_numbers[2]]
 
+def getRandSelectedItems(input_list_of_numbers, input_list_of_items):
+    first = selectItem(input_list_of_items, input_list_of_numbers[0])
+    second = selectItem(first[input_list_of_numbers[1]], 0)
+    return second[random.randint(0, len(second) - 1)]
+
+def printHelp():
+    print("To select a thing to type do something like 0.0.0 where each number is an index to select")
 displayList()
 
 while (True):
-    print(getSelectedItems(getNumbers(input("What would you like to select?")), content))
+    inputToCheck = input("What would you like to select?")
+    if(inputToCheck == "help" or inputToCheck == "h"):
+        printHelp()
+    else:
+        if(inputToCheck == "display" or inputToCheck == "d"):
+            displayList()
+        else:
+            try:
+                if(inputToCheck[-1] == '+'):
+                    print(getRandSelectedItems(getNumbers(inputToCheck[0:-2]), content))
+                else:
+                    print(getSelectedItems(getNumbers(inputToCheck), content))
+            except Exception as error:
+                print("There was a problem with the command")
+                continue
+
+    print('\n')
 
 # display list of content
 # get input <number>,<number> or <string-subject>, <number>
