@@ -11,7 +11,7 @@
                 ""
             ]
         },{
-            "working conditions": [
+            "working_conditions": [
                 "If you want a consistent schedule, talk to your coworkers about unionizing today!",
                 ""
             ]
@@ -33,7 +33,7 @@
                 ""
             ]
         },{
-            "pro-union":[
+            "pro_union":[
                 "We need to demand that the companies and corporations that profit from our resources, replenish the community from which it profited from.",
                 "Without consistent consumer spending and disposable income, capitalism itself will collapse.",
                 "We need collective bargaining, we need to be able to leverage our collective bargaining rights to negotiate with our employers.",
@@ -55,7 +55,7 @@
                 "United we bargain for better material conditions; divided we beg!"
             ]
         },{
-            "Frank Keeny Jr Info":[
+            "Frank_Keeny_Jr_Info":[
                 "I was born, March 15th, 1882 in Cabin Creek, West Virginia",
                 "I died on May 22, 1970",
                 "I fought for our right to form a union against the coal companies of Appalachia", 
@@ -69,7 +69,7 @@
                 "We need to stand together as a community and demand that the resources business extracts from our community are replenished.",
                 "With out community, with out our fellow community members we do not stand a chance against the ruling class.",
                 "It is only through the strength that we find in one another that we can make a change for our community.",
-                "“I believe that no man who holds a leader's position should ever accept favors from either side. He is then committed to show favors. A leader must stand alone.",
+                "I believe that no man who holds a leader's position should ever accept favors from either side. He is then committed to show favors. A leader must stand alone.",
                 ""
             ]
         },{
@@ -81,7 +81,7 @@
                 ""
             ]
         },{
-            "Mother Jones Quotes":[
+            "Mother_Jones_Quotes":[
                 "Some day the workers will take possession of your city hall, and when we do, no child will be sacrificed on the altar of profit!",
                 "I want to hold a series of meetings all over the country and get the facts before the American people",
                 "Freedom for the working class!",
